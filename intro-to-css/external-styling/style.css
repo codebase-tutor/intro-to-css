@@ -1,0 +1,39 @@
+/* universal selector
+	this selects all tags in your html file
+ */
+
+* {
+	text-align: center;
+}
+
+#first {
+	/* color: blue; */
+	/* color: rgba(0, 0, 255, 0.5); */
+	color: #0000ff80;
+	width: 150px;
+	font-weight: bold;
+	padding: 32px;
+	margin: 32px;
+}
+
+.group {
+	color: rgb(128, 0, 128);
+	width: 150px;
+	font-weight: bold
+}
+
+.another_group {
+	font-style: italic;
+	background-color: rgba(0,0,0, 0.7);
+	color: rgb(255,255,255);
+	padding: 8px;
+}
+
+
+/* HEX VALUES */
+/* 
+0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F
+ */
+
+/* Hexadecimal color code for transparency */
+ /* https://gist.github.com/lopspower/03fb1cc0ac9f32ef38f4 */
